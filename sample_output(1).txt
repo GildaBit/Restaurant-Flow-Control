@@ -1,0 +1,208 @@
+Request queue: 0 GT + 1 VIP = 1. Added VIP room request. Produced: 0 GT + 1 VIP = 1 in 0.000 s.
+Request queue: 0 GT + 0 VIP = 0. T-X consumed VIP room request.  T-X totals: 0 GT + 1 VIP = 1 consumed in 0.004 s.
+Request queue: 1 GT + 0 VIP = 1. Added General table request. Produced: 1 GT + 1 VIP = 2 in 0.005 s.
+Request queue: 0 GT + 0 VIP = 0. REV-9 consumed General table request.  REV-9 totals: 1 GT + 0 VIP = 1 consumed in 0.005 s.
+Request queue: 0 GT + 1 VIP = 1. Added VIP room request. Produced: 1 GT + 2 VIP = 3 in 0.014 s.
+Request queue: 1 GT + 1 VIP = 2. Added General table request. Produced: 2 GT + 2 VIP = 4 in 0.020 s.
+Request queue: 1 GT + 0 VIP = 1. T-X consumed VIP room request.  T-X totals: 0 GT + 2 VIP = 2 consumed in 0.025 s.
+Request queue: 1 GT + 1 VIP = 2. Added VIP room request. Produced: 2 GT + 3 VIP = 5 in 0.026 s.
+Request queue: 2 GT + 1 VIP = 3. Added General table request. Produced: 3 GT + 3 VIP = 6 in 0.036 s.
+Request queue: 2 GT + 2 VIP = 4. Added VIP room request. Produced: 3 GT + 4 VIP = 7 in 0.037 s.
+Request queue: 1 GT + 2 VIP = 3. REV-9 consumed General table request.  REV-9 totals: 2 GT + 0 VIP = 2 consumed in 0.041 s.
+Request queue: 1 GT + 1 VIP = 2. T-X consumed VIP room request.  T-X totals: 0 GT + 3 VIP = 3 consumed in 0.046 s.
+Request queue: 1 GT + 2 VIP = 3. Added VIP room request. Produced: 3 GT + 5 VIP = 8 in 0.048 s.
+Request queue: 2 GT + 2 VIP = 4. Added General table request. Produced: 4 GT + 5 VIP = 9 in 0.052 s.
+Request queue: 2 GT + 3 VIP = 5. Added VIP room request. Produced: 4 GT + 6 VIP = 10 in 0.060 s.
+Request queue: 1 GT + 3 VIP = 4. T-X consumed General table request.  T-X totals: 1 GT + 3 VIP = 4 consumed in 0.067 s.
+Request queue: 2 GT + 3 VIP = 5. Added General table request. Produced: 5 GT + 6 VIP = 11 in 0.069 s.
+Request queue: 2 GT + 4 VIP = 6. Added VIP room request. Produced: 5 GT + 7 VIP = 12 in 0.070 s.
+Request queue: 2 GT + 3 VIP = 5. REV-9 consumed VIP room request.  REV-9 totals: 2 GT + 1 VIP = 3 consumed in 0.077 s.
+Request queue: 2 GT + 4 VIP = 6. Added VIP room request. Produced: 5 GT + 8 VIP = 13 in 0.081 s.
+Request queue: 3 GT + 4 VIP = 7. Added General table request. Produced: 6 GT + 8 VIP = 14 in 0.084 s.
+Request queue: 3 GT + 3 VIP = 6. T-X consumed VIP room request.  T-X totals: 1 GT + 4 VIP = 5 consumed in 0.088 s.
+Request queue: 3 GT + 4 VIP = 7. Added VIP room request. Produced: 6 GT + 9 VIP = 15 in 0.092 s.
+Request queue: 4 GT + 4 VIP = 8. Added General table request. Produced: 7 GT + 9 VIP = 16 in 0.100 s.
+Request queue: 4 GT + 5 VIP = 9. Added VIP room request. Produced: 7 GT + 10 VIP = 17 in 0.103 s.
+Request queue: 3 GT + 5 VIP = 8. T-X consumed General table request.  T-X totals: 2 GT + 4 VIP = 6 consumed in 0.108 s.
+Request queue: 3 GT + 4 VIP = 7. REV-9 consumed VIP room request.  REV-9 totals: 2 GT + 2 VIP = 4 consumed in 0.113 s.
+Request queue: 3 GT + 5 VIP = 8. Added VIP room request. Produced: 7 GT + 11 VIP = 18 in 0.114 s.
+Request queue: 4 GT + 5 VIP = 9. Added General table request. Produced: 8 GT + 11 VIP = 19 in 0.116 s.
+Request queue: 4 GT + 6 VIP = 10. Added VIP room request. Produced: 8 GT + 12 VIP = 20 in 0.125 s.
+Request queue: 3 GT + 6 VIP = 9. T-X consumed General table request.  T-X totals: 3 GT + 4 VIP = 7 consumed in 0.129 s.
+Request queue: 4 GT + 6 VIP = 10. Added General table request. Produced: 9 GT + 12 VIP = 21 in 0.132 s.
+Request queue: 5 GT + 6 VIP = 11. Added General table request. Produced: 10 GT + 12 VIP = 22 in 0.148 s.
+Request queue: 5 GT + 5 VIP = 10. REV-9 consumed VIP room request.  REV-9 totals: 2 GT + 3 VIP = 5 consumed in 0.149 s.
+Request queue: 5 GT + 6 VIP = 11. Added VIP room request. Produced: 10 GT + 13 VIP = 23 in 0.150 s.
+Request queue: 5 GT + 5 VIP = 10. T-X consumed VIP room request.  T-X totals: 3 GT + 5 VIP = 8 consumed in 0.152 s.
+Request queue: 5 GT + 6 VIP = 11. Added VIP room request. Produced: 10 GT + 14 VIP = 24 in 0.162 s.
+Request queue: 6 GT + 6 VIP = 12. Added General table request. Produced: 11 GT + 14 VIP = 25 in 0.164 s.
+Request queue: 5 GT + 6 VIP = 11. T-X consumed General table request.  T-X totals: 4 GT + 5 VIP = 9 consumed in 0.173 s.
+Request queue: 6 GT + 6 VIP = 12. Added General table request. Produced: 12 GT + 14 VIP = 26 in 0.181 s.
+Request queue: 6 GT + 5 VIP = 11. REV-9 consumed VIP room request.  REV-9 totals: 2 GT + 4 VIP = 6 consumed in 0.186 s.
+Request queue: 6 GT + 6 VIP = 12. Added VIP room request. Produced: 12 GT + 15 VIP = 27 in 0.187 s.
+Request queue: 5 GT + 6 VIP = 11. T-X consumed General table request.  T-X totals: 5 GT + 5 VIP = 10 consumed in 0.195 s.
+Request queue: 6 GT + 6 VIP = 12. Added General table request. Produced: 13 GT + 15 VIP = 28 in 0.197 s.
+Request queue: 7 GT + 6 VIP = 13. Added General table request. Produced: 14 GT + 15 VIP = 29 in 0.214 s.
+Request queue: 7 GT + 5 VIP = 12. T-X consumed VIP room request.  T-X totals: 5 GT + 6 VIP = 11 consumed in 0.216 s.
+Request queue: 7 GT + 6 VIP = 13. Added VIP room request. Produced: 14 GT + 16 VIP = 30 in 0.218 s.
+Request queue: 7 GT + 5 VIP = 12. REV-9 consumed VIP room request.  REV-9 totals: 2 GT + 5 VIP = 7 consumed in 0.223 s.
+Request queue: 7 GT + 6 VIP = 13. Added VIP room request. Produced: 14 GT + 17 VIP = 31 in 0.229 s.
+Request queue: 8 GT + 6 VIP = 14. Added General table request. Produced: 15 GT + 17 VIP = 32 in 0.230 s.
+Request queue: 7 GT + 6 VIP = 13. T-X consumed General table request.  T-X totals: 6 GT + 6 VIP = 12 consumed in 0.238 s.
+Request queue: 8 GT + 6 VIP = 14. Added General table request. Produced: 16 GT + 17 VIP = 33 in 0.247 s.
+Request queue: 8 GT + 5 VIP = 13. REV-9 consumed VIP room request.  REV-9 totals: 2 GT + 6 VIP = 8 consumed in 0.259 s.
+Request queue: 8 GT + 6 VIP = 14. Added VIP room request. Produced: 16 GT + 18 VIP = 34 in 0.261 s.
+Request queue: 7 GT + 6 VIP = 13. T-X consumed General table request.  T-X totals: 7 GT + 6 VIP = 13 consumed in 0.262 s.
+Request queue: 8 GT + 6 VIP = 14. Added General table request. Produced: 17 GT + 18 VIP = 35 in 0.263 s.
+Request queue: 9 GT + 6 VIP = 15. Added General table request. Produced: 18 GT + 18 VIP = 36 in 0.279 s.
+Request queue: 8 GT + 6 VIP = 14. T-X consumed General table request.  T-X totals: 8 GT + 6 VIP = 14 consumed in 0.283 s.
+Request queue: 8 GT + 5 VIP = 13. REV-9 consumed VIP room request.  REV-9 totals: 2 GT + 7 VIP = 9 consumed in 0.296 s.
+Request queue: 8 GT + 6 VIP = 14. Added VIP room request. Produced: 18 GT + 19 VIP = 37 in 0.297 s.
+Request queue: 9 GT + 6 VIP = 15. Added General table request. Produced: 19 GT + 19 VIP = 38 in 0.298 s.
+Request queue: 9 GT + 5 VIP = 14. T-X consumed VIP room request.  T-X totals: 8 GT + 7 VIP = 15 consumed in 0.304 s.
+Request queue: 9 GT + 6 VIP = 15. Added VIP room request. Produced: 19 GT + 20 VIP = 39 in 0.308 s.
+Request queue: 10 GT + 6 VIP = 16. Added General table request. Produced: 20 GT + 20 VIP = 40 in 0.314 s.
+Request queue: 9 GT + 6 VIP = 15. T-X consumed General table request.  T-X totals: 9 GT + 7 VIP = 16 consumed in 0.326 s.
+Request queue: 10 GT + 6 VIP = 16. Added General table request. Produced: 21 GT + 20 VIP = 41 in 0.331 s.
+Request queue: 9 GT + 6 VIP = 15. REV-9 consumed General table request.  REV-9 totals: 3 GT + 7 VIP = 10 consumed in 0.332 s.
+Request queue: 9 GT + 5 VIP = 14. T-X consumed VIP room request.  T-X totals: 9 GT + 8 VIP = 17 consumed in 0.347 s.
+Request queue: 9 GT + 6 VIP = 15. Added VIP room request. Produced: 21 GT + 21 VIP = 42 in 0.349 s.
+Request queue: 10 GT + 6 VIP = 16. Added General table request. Produced: 22 GT + 21 VIP = 43 in 0.350 s.
+Request queue: 11 GT + 6 VIP = 17. Added General table request. Produced: 23 GT + 21 VIP = 44 in 0.366 s.
+Request queue: 10 GT + 6 VIP = 16. REV-9 consumed General table request.  REV-9 totals: 4 GT + 7 VIP = 11 consumed in 0.368 s.
+Request queue: 9 GT + 6 VIP = 15. T-X consumed General table request.  T-X totals: 10 GT + 8 VIP = 18 consumed in 0.370 s.
+Request queue: 10 GT + 6 VIP = 16. Added General table request. Produced: 24 GT + 21 VIP = 45 in 0.382 s.
+Request queue: 10 GT + 5 VIP = 15. T-X consumed VIP room request.  T-X totals: 10 GT + 9 VIP = 19 consumed in 0.391 s.
+Request queue: 10 GT + 6 VIP = 16. Added VIP room request. Produced: 24 GT + 22 VIP = 46 in 0.392 s.
+Request queue: 11 GT + 6 VIP = 17. Added General table request. Produced: 25 GT + 22 VIP = 47 in 0.399 s.
+Request queue: 11 GT + 5 VIP = 16. REV-9 consumed VIP room request.  REV-9 totals: 4 GT + 8 VIP = 12 consumed in 0.405 s.
+Request queue: 11 GT + 6 VIP = 17. Added VIP room request. Produced: 25 GT + 23 VIP = 48 in 0.406 s.
+Request queue: 10 GT + 6 VIP = 16. T-X consumed General table request.  T-X totals: 11 GT + 9 VIP = 20 consumed in 0.413 s.
+Request queue: 11 GT + 6 VIP = 17. Added General table request. Produced: 26 GT + 23 VIP = 49 in 0.416 s.
+Request queue: 12 GT + 6 VIP = 18. Added General table request. Produced: 27 GT + 23 VIP = 50 in 0.432 s.
+Request queue: 11 GT + 6 VIP = 17. T-X consumed General table request.  T-X totals: 12 GT + 9 VIP = 21 consumed in 0.434 s.
+Request queue: 11 GT + 5 VIP = 16. REV-9 consumed VIP room request.  REV-9 totals: 4 GT + 9 VIP = 13 consumed in 0.441 s.
+Request queue: 11 GT + 6 VIP = 17. Added VIP room request. Produced: 27 GT + 24 VIP = 51 in 0.442 s.
+Request queue: 12 GT + 6 VIP = 18. Added General table request. Produced: 28 GT + 24 VIP = 52 in 0.449 s.
+Request queue: 11 GT + 6 VIP = 17. T-X consumed General table request.  T-X totals: 13 GT + 9 VIP = 22 consumed in 0.456 s.
+Request queue: 12 GT + 6 VIP = 18. Added General table request. Produced: 29 GT + 24 VIP = 53 in 0.465 s.
+Request queue: 11 GT + 6 VIP = 17. T-X consumed General table request.  T-X totals: 14 GT + 9 VIP = 23 consumed in 0.477 s.
+Request queue: 11 GT + 5 VIP = 16. REV-9 consumed VIP room request.  REV-9 totals: 4 GT + 10 VIP = 14 consumed in 0.479 s.
+Request queue: 11 GT + 6 VIP = 17. Added VIP room request. Produced: 29 GT + 25 VIP = 54 in 0.480 s.
+Request queue: 12 GT + 6 VIP = 18. Added General table request. Produced: 30 GT + 25 VIP = 55 in 0.482 s.
+Request queue: 13 GT + 6 VIP = 19. Added General table request. Produced: 31 GT + 25 VIP = 56 in 0.499 s.
+Request queue: 12 GT + 6 VIP = 18. T-X consumed General table request.  T-X totals: 15 GT + 9 VIP = 24 consumed in 0.500 s.
+Request queue: 12 GT + 5 VIP = 17. REV-9 consumed VIP room request.  REV-9 totals: 4 GT + 11 VIP = 15 consumed in 0.515 s.
+Request queue: 12 GT + 6 VIP = 18. Added VIP room request. Produced: 31 GT + 26 VIP = 57 in 0.516 s.
+Request queue: 13 GT + 6 VIP = 19. Added General table request. Produced: 32 GT + 26 VIP = 58 in 0.517 s.
+Request queue: 12 GT + 6 VIP = 18. T-X consumed General table request.  T-X totals: 16 GT + 9 VIP = 25 consumed in 0.521 s.
+Request queue: 13 GT + 6 VIP = 19. Added General table request. Produced: 33 GT + 26 VIP = 59 in 0.533 s.
+Request queue: 12 GT + 6 VIP = 18. T-X consumed General table request.  T-X totals: 17 GT + 9 VIP = 26 consumed in 0.542 s.
+Request queue: 13 GT + 6 VIP = 19. Added General table request. Produced: 34 GT + 26 VIP = 60 in 0.549 s.
+Request queue: 13 GT + 5 VIP = 18. REV-9 consumed VIP room request.  REV-9 totals: 4 GT + 12 VIP = 16 consumed in 0.551 s.
+Request queue: 13 GT + 6 VIP = 19. Added VIP room request. Produced: 34 GT + 27 VIP = 61 in 0.552 s.
+Request queue: 12 GT + 6 VIP = 18. T-X consumed General table request.  T-X totals: 18 GT + 9 VIP = 27 consumed in 0.564 s.
+Request queue: 13 GT + 6 VIP = 19. Added General table request. Produced: 35 GT + 27 VIP = 62 in 0.566 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 36 GT + 27 VIP = 63 in 0.582 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 19 GT + 9 VIP = 28 consumed in 0.585 s.
+Request queue: 12 GT + 6 VIP = 18. REV-9 consumed General table request.  REV-9 totals: 5 GT + 12 VIP = 17 consumed in 0.588 s.
+Request queue: 13 GT + 6 VIP = 19. Added General table request. Produced: 37 GT + 27 VIP = 64 in 0.599 s.
+Request queue: 13 GT + 5 VIP = 18. T-X consumed VIP room request.  T-X totals: 19 GT + 10 VIP = 29 consumed in 0.607 s.
+Request queue: 13 GT + 6 VIP = 19. Added VIP room request. Produced: 37 GT + 28 VIP = 65 in 0.608 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 38 GT + 28 VIP = 66 in 0.616 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 6 GT + 12 VIP = 18 consumed in 0.624 s.
+Request queue: 13 GT + 5 VIP = 18. T-X consumed VIP room request.  T-X totals: 19 GT + 11 VIP = 30 consumed in 0.628 s.
+Request queue: 13 GT + 6 VIP = 19. Added VIP room request. Produced: 38 GT + 29 VIP = 67 in 0.630 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 39 GT + 29 VIP = 68 in 0.632 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 20 GT + 11 VIP = 31 consumed in 0.650 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 40 GT + 29 VIP = 69 in 0.651 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 7 GT + 12 VIP = 19 consumed in 0.661 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 41 GT + 29 VIP = 70 in 0.668 s.
+Request queue: 14 GT + 5 VIP = 19. T-X consumed VIP room request.  T-X totals: 20 GT + 12 VIP = 32 consumed in 0.672 s.
+Request queue: 14 GT + 6 VIP = 20. Added VIP room request. Produced: 41 GT + 30 VIP = 71 in 0.673 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 21 GT + 12 VIP = 33 consumed in 0.693 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 42 GT + 30 VIP = 72 in 0.694 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 8 GT + 12 VIP = 20 consumed in 0.697 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 43 GT + 30 VIP = 73 in 0.710 s.
+Request queue: 14 GT + 5 VIP = 19. T-X consumed VIP room request.  T-X totals: 21 GT + 13 VIP = 34 consumed in 0.715 s.
+Request queue: 14 GT + 6 VIP = 20. Added VIP room request. Produced: 43 GT + 31 VIP = 74 in 0.716 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 9 GT + 12 VIP = 21 consumed in 0.733 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 44 GT + 31 VIP = 75 in 0.735 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 22 GT + 13 VIP = 35 consumed in 0.736 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 45 GT + 31 VIP = 76 in 0.751 s.
+Request queue: 14 GT + 5 VIP = 19. T-X consumed VIP room request.  T-X totals: 22 GT + 14 VIP = 36 consumed in 0.757 s.
+Request queue: 14 GT + 6 VIP = 20. Added VIP room request. Produced: 45 GT + 32 VIP = 77 in 0.759 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 10 GT + 12 VIP = 22 consumed in 0.770 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 46 GT + 32 VIP = 78 in 0.771 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 23 GT + 14 VIP = 37 consumed in 0.779 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 47 GT + 32 VIP = 79 in 0.787 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 24 GT + 14 VIP = 38 consumed in 0.800 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 48 GT + 32 VIP = 80 in 0.805 s.
+Request queue: 14 GT + 5 VIP = 19. REV-9 consumed VIP room request.  REV-9 totals: 10 GT + 13 VIP = 23 consumed in 0.809 s.
+Request queue: 14 GT + 6 VIP = 20. Added VIP room request. Produced: 48 GT + 33 VIP = 81 in 0.810 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 25 GT + 14 VIP = 39 consumed in 0.824 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 49 GT + 33 VIP = 82 in 0.825 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 11 GT + 13 VIP = 24 consumed in 0.845 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 50 GT + 33 VIP = 83 in 0.846 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 26 GT + 14 VIP = 40 consumed in 0.847 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 51 GT + 33 VIP = 84 in 0.862 s.
+Request queue: 14 GT + 5 VIP = 19. T-X consumed VIP room request.  T-X totals: 26 GT + 15 VIP = 41 consumed in 0.868 s.
+Request queue: 14 GT + 6 VIP = 20. Added VIP room request. Produced: 51 GT + 34 VIP = 85 in 0.869 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 12 GT + 13 VIP = 25 consumed in 0.881 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 52 GT + 34 VIP = 86 in 0.882 s.
+Request queue: 14 GT + 5 VIP = 19. T-X consumed VIP room request.  T-X totals: 26 GT + 16 VIP = 42 consumed in 0.889 s.
+Request queue: 14 GT + 6 VIP = 20. Added VIP room request. Produced: 52 GT + 35 VIP = 87 in 0.890 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 27 GT + 16 VIP = 43 consumed in 0.910 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 53 GT + 35 VIP = 88 in 0.911 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 13 GT + 13 VIP = 26 consumed in 0.917 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 54 GT + 35 VIP = 89 in 0.927 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 28 GT + 16 VIP = 44 consumed in 0.931 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 55 GT + 35 VIP = 90 in 0.943 s.
+Request queue: 14 GT + 5 VIP = 19. T-X consumed VIP room request.  T-X totals: 28 GT + 17 VIP = 45 consumed in 0.952 s.
+Request queue: 14 GT + 6 VIP = 20. Added VIP room request. Produced: 55 GT + 36 VIP = 91 in 0.953 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 14 GT + 13 VIP = 27 consumed in 0.954 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 56 GT + 36 VIP = 92 in 0.959 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 29 GT + 17 VIP = 46 consumed in 0.973 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 57 GT + 36 VIP = 93 in 0.975 s.
+Request queue: 14 GT + 5 VIP = 19. REV-9 consumed VIP room request.  REV-9 totals: 14 GT + 14 VIP = 28 consumed in 0.990 s.
+Request queue: 14 GT + 6 VIP = 20. Added VIP room request. Produced: 57 GT + 37 VIP = 94 in 0.991 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 30 GT + 17 VIP = 47 consumed in 0.994 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 58 GT + 37 VIP = 95 in 0.995 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 31 GT + 17 VIP = 48 consumed in 1.015 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 59 GT + 37 VIP = 96 in 1.016 s.
+Request queue: 14 GT + 5 VIP = 19. REV-9 consumed VIP room request.  REV-9 totals: 14 GT + 15 VIP = 29 consumed in 1.026 s.
+Request queue: 14 GT + 6 VIP = 20. Added VIP room request. Produced: 59 GT + 38 VIP = 97 in 1.027 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 32 GT + 17 VIP = 49 consumed in 1.036 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 60 GT + 38 VIP = 98 in 1.037 s.
+Request queue: 13 GT + 6 VIP = 19. T-X consumed General table request.  T-X totals: 33 GT + 17 VIP = 50 consumed in 1.057 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 61 GT + 38 VIP = 99 in 1.058 s.
+Request queue: 13 GT + 6 VIP = 19. REV-9 consumed General table request.  REV-9 totals: 15 GT + 15 VIP = 30 consumed in 1.062 s.
+Request queue: 14 GT + 6 VIP = 20. Added General table request. Produced: 62 GT + 38 VIP = 100 in 1.074 s.
+Request queue: 14 GT + 5 VIP = 19. T-X consumed VIP room request.  T-X totals: 33 GT + 18 VIP = 51 consumed in 1.078 s.
+Request queue: 13 GT + 5 VIP = 18. T-X consumed General table request.  T-X totals: 34 GT + 18 VIP = 52 consumed in 1.101 s.
+Request queue: 12 GT + 5 VIP = 17. REV-9 consumed General table request.  REV-9 totals: 16 GT + 15 VIP = 31 consumed in 1.102 s.
+Request queue: 11 GT + 5 VIP = 16. T-X consumed General table request.  T-X totals: 35 GT + 18 VIP = 53 consumed in 1.122 s.
+Request queue: 11 GT + 4 VIP = 15. REV-9 consumed VIP room request.  REV-9 totals: 16 GT + 16 VIP = 32 consumed in 1.138 s.
+Request queue: 10 GT + 4 VIP = 14. T-X consumed General table request.  T-X totals: 36 GT + 18 VIP = 54 consumed in 1.143 s.
+Request queue: 10 GT + 3 VIP = 13. T-X consumed VIP room request.  T-X totals: 36 GT + 19 VIP = 55 consumed in 1.164 s.
+Request queue: 9 GT + 3 VIP = 12. REV-9 consumed General table request.  REV-9 totals: 17 GT + 16 VIP = 33 consumed in 1.174 s.
+Request queue: 8 GT + 3 VIP = 11. T-X consumed General table request.  T-X totals: 37 GT + 19 VIP = 56 consumed in 1.185 s.
+Request queue: 7 GT + 3 VIP = 10. T-X consumed General table request.  T-X totals: 38 GT + 19 VIP = 57 consumed in 1.207 s.
+Request queue: 7 GT + 2 VIP = 9. REV-9 consumed VIP room request.  REV-9 totals: 17 GT + 17 VIP = 34 consumed in 1.210 s.
+Request queue: 6 GT + 2 VIP = 8. T-X consumed General table request.  T-X totals: 39 GT + 19 VIP = 58 consumed in 1.228 s.
+Request queue: 5 GT + 2 VIP = 7. REV-9 consumed General table request.  REV-9 totals: 18 GT + 17 VIP = 35 consumed in 1.246 s.
+Request queue: 5 GT + 1 VIP = 6. T-X consumed VIP room request.  T-X totals: 39 GT + 20 VIP = 59 consumed in 1.249 s.
+Request queue: 4 GT + 1 VIP = 5. T-X consumed General table request.  T-X totals: 40 GT + 20 VIP = 60 consumed in 1.270 s.
+Request queue: 3 GT + 1 VIP = 4. REV-9 consumed General table request.  REV-9 totals: 19 GT + 17 VIP = 36 consumed in 1.282 s.
+Request queue: 3 GT + 0 VIP = 3. T-X consumed VIP room request.  T-X totals: 40 GT + 21 VIP = 61 consumed in 1.292 s.
+Request queue: 2 GT + 0 VIP = 2. T-X consumed General table request.  T-X totals: 41 GT + 21 VIP = 62 consumed in 1.313 s.
+Request queue: 1 GT + 0 VIP = 1. REV-9 consumed General table request.  REV-9 totals: 20 GT + 17 VIP = 37 consumed in 1.318 s.
+Request queue: 0 GT + 0 VIP = 0. T-X consumed General table request.  T-X totals: 42 GT + 21 VIP = 63 consumed in 1.334 s.
+
+REQUEST REPORT
+----------------------------------------
+General table request producer generated 62 requests
+VIP room request producer generated 38 requests
+T-X consumed 42 GT + 21 VIP = 63 total
+REV-9 consumed 20 GT + 17 VIP = 37 total
+Elapsed time 1.354 s
