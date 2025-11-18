@@ -1,6 +1,9 @@
 #include <iostream>
 #include <unistd.h>
 #include "restaurant.h"
+#include "producer.h"
+#include "consumer.h"
+#include "log.h"
 
 using namespace std;
 
@@ -14,10 +17,10 @@ int main(int argc, char** argv) {
     while ((opt = getopt(argc, argv, "s:x:r:g:v:")) != -1) {
         switch (opt) {
             case 's': s = atoi(optarg); break;
-            case 'x': s = atoi(optarg); break;
-            case 'r': s = atoi(optarg); break;
-            case 'g': s = atoi(optarg); break;
-            case 'v': s = atoi(optarg); break;
+            case 'x': x = atoi(optarg); break;
+            case 'r': r = atoi(optarg); break;
+            case 'g': g = atoi(optarg); break;
+            case 'v': v = atoi(optarg); break;
             default:
                 cerr << "Usage: " << argv[0]
                      << " [-s numRequests] [-x T-X ms] [-r Rev9 ms] [-g general ms] [-v VIP ms]]" << endl;
@@ -28,14 +31,46 @@ int main(int argc, char** argv) {
     SharedState state;
     state.maxRequests = s;
 
+    // Set sleep times
+    state.sleep_x = x;
+    state.sleep_r = r;
+    state.sleep_g = g;
+    state.sleep_v = v;
+
     // Intialize mutex and condition variables
     pthread_mutex_init(&state.mutex, nullptr);
     pthread_cond_init(&state.not_full, nullptr);
     pthread_cond_init(&state.not_empty, nullptr);
 
+    // Create producer and consumer threads
+    pthread_t producers[2], consumers[2];
+
+    // Creating General Table and VIP Room producer threads
+    pthread_create(&producers[0], nullptr, restCtrl_prod, 
+                   new pair<SharedState*, RequestType>(&state, GeneralTable));
+    pthread_create(&producers[1], nullptr, restCtrl_prod, 
+                   new pair<SharedState*, RequestType>(&state, VIPRoom));
+
+    // Creating T-X and Rev-9 consumer robots
+    pthread_create(&consumers[0], nullptr, restCtrl_cons, 
+                   new pair<SharedState*, ConsumerType>(&state, TX));
+    pthread_create(&consumers[1], nullptr, restCtrl_cons, 
+                   new pair<SharedState*, ConsumerType>(&state, Rev9));
+    
+    // wait for all threads to finish
+    for (auto& p : producers) pthread_join(p, nullptr);
+    for (auto& c : consumers) pthread_join(c, nullptr);
+
+    // Output production history
+    unsigned int* consumedPtrs[ConsumerTypeN];
+    for (int i = 0; i < ConsumerTypeN; ++i) 
+        consumedPtrs[i] = state.consumed[i];
+    output_production_history(state.produced, consumedPtrs);
+
     // Before exiting
     pthread_mutex_destroy(&state.mutex);
     pthread_cond_destroy(&state.not_full);
     pthread_cond_destroy(&state.not_empty);
+
     return 0;
 }

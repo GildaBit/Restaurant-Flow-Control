@@ -4,8 +4,8 @@
 
 CXX = g++
 CXXFLAGS = -Wall -Wextra -g -pthread
-OBJS = main.o log.o
-DEPS = log.h seating.h
+OBJS = main.o log.o producer.o consumer.o
+DEPS = log.h seating.h restaurant.h producer.h consumer.h
 TARGET = dineseating
 
 $(TARGET): $(OBJS)

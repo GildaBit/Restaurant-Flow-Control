@@ -11,10 +11,14 @@ void* restCtrl_prod(void* arg) {
     RequestType reqType = info->second;
     delete info; // clean up allocated memory
 
+
+
     while(true) {
+
         // Simulate production time
         unsigned int sleepTime = (reqType == GeneralTable) ? state->sleep_g :  state->sleep_v;
         if (sleepTime > 0) usleep(sleepTime * 1000); // Convert ms to us
+        
 
         // Lock the shared state mutex
         pthread_mutex_lock(&state->mutex);
@@ -30,20 +34,30 @@ void* restCtrl_prod(void* arg) {
             pthread_cond_wait(&state->not_full, &state->mutex);
         }
 
-        // Add request to the queue
-        state->requestQueue.push(reqType);
-        state->produced[reqType]++;
-        state->inQueue[reqType]++;
-        state->totalProduced++;
+        if (state->totalProduced < state->maxRequests) {
+            // Add request to the queue
+            state->requestQueue.push(reqType);
+            state->produced[reqType]++;
+            state->inQueue[reqType]++;
+            state->totalProduced++;
 
-        // Output log
-        output_request_added(reqType, state->produced, state->inQueue);
+            // Output log
+            output_request_added(reqType, state->produced, state->inQueue);
 
-        // Signal that the queue is not empty
-        pthread_cond_signal(&state->not_empty);
+            // Signal that the queue is not empty
+            pthread_cond_broadcast(&state->not_empty);
+        }
+
         // Unlock the mutex
         pthread_mutex_unlock(&state->mutex);
+
+
     }
+
+    // Wake up any waiting consumers
+    pthread_mutex_lock(&state->mutex);
+    pthread_cond_broadcast(&state->not_empty);
+    pthread_mutex_unlock(&state->mutex);
 
     pthread_exit(nullptr);
 

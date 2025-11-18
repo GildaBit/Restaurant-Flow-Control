@@ -15,14 +15,15 @@ void* restCtrl_cons(void* arg) {
         // Lock the shared state mutex
         pthread_mutex_lock(&state->mutex);
 
-        // wait if the queue is empty
-        while(state->requestQueue.empty()) {
-            // If all requests have been produced and consumed, exit
-            if (state->totalConsumed >= state->maxRequests) {
-                pthread_mutex_unlock(&state->mutex);
-                pthread_exit(nullptr);
-            }
+        // wait if the queue is empty and production is not done
+        while (state->requestQueue.empty() && state->totalProduced < state->maxRequests) {
             pthread_cond_wait(&state->not_empty, &state->mutex);
+        }
+
+        // If production is done and queue is empty, exit
+        if (state->requestQueue.empty() && state->totalProduced >= state->maxRequests) {
+            pthread_mutex_unlock(&state->mutex);
+            break;
         }
 
         // Get request from the queue
@@ -36,7 +37,7 @@ void* restCtrl_cons(void* arg) {
         output_request_removed(conType, req, state->consumed[conType], state->inQueue);
 
         // Signal that the queue is not full
-        pthread_cond_signal(&state->not_full);
+        pthread_cond_broadcast(&state->not_full);
 
         // Unlock the mutex
         pthread_mutex_unlock(&state->mutex);
@@ -45,6 +46,8 @@ void* restCtrl_cons(void* arg) {
         unsigned int sleepTime = (conType == TX) ? state->sleep_x :  state->sleep_r;
         if (sleepTime > 0) usleep(sleepTime * 1000); // Convert ms to us
     }
+
+
 
     pthread_exit(nullptr);
 }
