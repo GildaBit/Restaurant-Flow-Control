@@ -64,11 +64,11 @@ Flow_Control_Assignment_4/
 │   │   ├── consumer.h
 │   │   ├── seating.h
 │   │   ├── log.h
-│   ├── object_files/
-│       ├── main.o
-│       ├── producer.o
-│       ├── consumer.o
-│       ├── log.o
+├── object_files/
+│   ├── main.o
+│   ├── producer.o
+│   ├── consumer.o
+│   ├── log.o
 ├── sample_output.txt
 ├── Makefile
 └── dineseating
