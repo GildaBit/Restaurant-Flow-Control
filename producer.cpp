@@ -1,17 +1,24 @@
+/**
+ * Author: Gilad Bitton
+ * RedID: 130621085
+ */
 #include <unistd.h>
 #include "restaurant.h"
 #include "log.h"
 
 using namespace std;
 
-
+/**
+ * Producer thread functions
+ * 
+ * @param arg Pointer to a pair containing SharedState pointer and RequestType
+ * @return nullptr upon thread exit
+ */
 void* restCtrl_prod(void* arg) {
     auto* info = static_cast<pair<SharedState*, RequestType>*>(arg);
     SharedState* state = info->first;
     RequestType reqType = info->second;
     delete info; // clean up allocated memory
-
-
 
     while(true) {
 

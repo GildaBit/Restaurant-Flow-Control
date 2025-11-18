@@ -1,10 +1,19 @@
+/**
+ * Author: Gilad Bitton
+ * RedID: 130621085
+ */
 #include <unistd.h>
 #include "restaurant.h"
 #include "log.h"
 
 using namespace std;
 
-
+/**
+ * Consumer thread function
+ * 
+ * @param arg Pointer to a pair containing SharedState pointer and ConsumerType
+ * @return nullptr upon thread exit
+ */
 void* restCtrl_cons(void* arg) {
     auto* info = static_cast<pair<SharedState*, ConsumerType>*>(arg);
     SharedState* state = info->first;

@@ -1,3 +1,7 @@
+/**
+ * Author: Gilad Bitton
+ * RedID: 130621085
+ */
 #include <iostream>
 #include <unistd.h>
 #include "restaurant.h"
@@ -7,6 +11,13 @@
 
 using namespace std;
 
+/**
+ * Main function to set up and run the restaurant seating system
+ * 
+ * @param argc Argument count
+ * @param argv Argument vector
+ * @return Exit status
+ */
 int main(int argc, char** argv) {
     int opt;
     int s = 110; // Total number of seating requests (production limit)

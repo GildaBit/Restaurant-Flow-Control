@@ -1,3 +1,7 @@
+/**
+ * Author: Gilad Bitton
+ * RedID: 130621085
+ */
 #ifndef RESTAURANT_H
 #define RESTAURANT_H
 
@@ -10,6 +14,9 @@ using namespace std;
 #define QUEUE_MAX_SIZE 20 // Maximum size of the request queue
 #define VIP_LIMIT 6 // Maximum number of concurrent VIP room requests
 
+/**
+ * @brief Shared state structure for the restaurant seating system
+ */
 struct SharedState {
     queue<RequestType> requestQueue; // Queue to hold seating requests (GeneralTable or VIPRoom)
 
